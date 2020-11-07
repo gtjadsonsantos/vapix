@@ -16,13 +16,12 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
       
     steps:
+    - uses: actions/checkout@v2
     - name: Configura o Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       
     # Runs a single command using the runners shell
     - name: Install pyintaller and generator binary
-      run: |
-           ls -la
-           pwd
+      run: 
            pip install pyinstaller
            pyinstaller --onefile ./vapix.py
