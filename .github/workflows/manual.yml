@@ -23,5 +23,4 @@ jobs:
     # Runs a single command using the runners shell
     - name: Install pyintaller and generator binary
       run: 
-           pip install pyinstaller
-           pyinstaller --onefile ./vapix.py
+           pip install pyinstaller && pyinstaller --onefile ./vapix/vapix.py
