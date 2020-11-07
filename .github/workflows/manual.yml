@@ -14,9 +14,13 @@ jobs:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
+      
     steps:
+    - name: Configura o Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      
     # Runs a single command using the runners shell
     - name: Install pyintaller and generator binary
       run: |
            pip install pyinstaller
-           pyinstaller --onefile vapix.py
+           pyinstaller --onefile ./vapix.py
