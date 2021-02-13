@@ -1,0 +1,17 @@
+open_remote_door:
+  description: Open remote doors.
+  fields:
+    ip: 
+      description: "ip of controller"
+      example: "192.168.0.1"
+    username: 
+      description: "username of controller"
+      example: "admin"
+    password: 
+      description: "password of controller"
+      example: "admin"
+    doorid:
+      description: "identification door"
+      example: "Axis-000000000:00000000.00000000"
+          
+    

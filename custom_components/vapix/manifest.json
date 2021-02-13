@@ -1,0 +1,8 @@
+{
+  "domain": "vapix",
+  "name": "vapix",
+  "documentation": "https://github.com/jadson179/vapix",
+  "issue_tracker": "https://github.com/jadson179/controlid/issues",
+  "dependencies": [],
+  "codeowners": ["@jadson179"]
+}
