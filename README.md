@@ -1,18 +1,18 @@
-# CONTROL ID
+# VAPIX
 
-Este documento tem como finalidade apresentar a cli para integração com controladoras de modelo axis A1001
 
-## REQUISITOS
+## GETTER STARTED
 
-* python => 3
+Paste this property `vapix:` in your configuration file
+
+## SERVICES AVAILABLE
+
+* **vapix.open_remote_door**: Open doors Remote
 
 
 ```yaml
-python3 vapix.py <PROTOCOLO> <IP> <USERNAME> <SENHA> <DOORID> 
+ip: 192.168.0.1
+username: admin
+password: admin
+doorid: 'Axis-000000000:00000000.00000000'
 ```
-
-- **PROTOCOLO**: http
-- **IP**: 172.18.2.3
-- **USERNAME**: Usuário da controladora
-- **SENHA**: Senha da controladora
-- **DOORID**: Identificação do ponto de acesso na controladora
