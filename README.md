@@ -17,7 +17,7 @@ doorid: 'Axis-000000000:00000000.00000000'
 ```
 
 
-## LICENÇA 📝
+## LICENSE 📝
 
 This project use license MIT - see file [LICENSE](LICENSE) for more details
 # AUTOR
