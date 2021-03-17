@@ -1,5 +1,13 @@
 # VAPIX
 
+This custom integration permits Home Assistant to communicate with `axis` controllers through  http requests.
+
+**Whats does it do?**
+- Allow opening the doors/access points
+
+**Tested hardwares**:
+- A1001: https://www.axis.com/pt-br/products/axis-a1001
+- 
 ## GETTER STARTED
 
 Paste this property `vapix:` in your configuration file
