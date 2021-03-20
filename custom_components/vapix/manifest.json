@@ -1,6 +1,7 @@
 {
   "domain": "vapix",
   "name": "vapix",
+  "version": "0.1.0",
   "documentation": "https://github.com/jadson179/vapix",
   "issue_tracker": "https://github.com/jadson179/controlid/issues",
   "dependencies": [],
