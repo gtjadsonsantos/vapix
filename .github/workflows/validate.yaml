@@ -22,11 +22,3 @@ jobs:
     steps:
       - uses: "actions/checkout@v2"
       - uses: home-assistant/actions/hassfest@master
-  validate:
-    runs-on: "ubuntu-latest"
-    steps:
-      - uses: "actions/checkout@v2"
-      - name: HACS validation
-        uses: "hacs/action@main"
-        with:
-          category: "CHANGE_ME!"
