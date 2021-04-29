@@ -5,6 +5,6 @@
   "documentation": "https://github.com/jadson179/vapix",
   "issue_tracker": "https://github.com/jadson179/controlid/issues",
   "dependencies": [],
-  "version": "0.1.0",
-  "codeowners": ["@jadson179"]
+  "codeowners": ["@jadson179"],
+  "iot_class":"local_push"
 }
