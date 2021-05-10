@@ -24,6 +24,14 @@ password: admin
 doorid: 'Axis-000000000:00000000.00000000'
 ```
 
+* **vapix.get_door_list**: List all doors id's 
+
+```yaml
+ip: 192.168.0.1
+username: admin
+password: admin
+```
+
 
 ## LICENSE 📝
 

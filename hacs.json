@@ -2,5 +2,5 @@
     "name": "vapix",
     "render_readme": "true" ,
     "iot_class": ["Local Push"],
-    "version": "0.1.0"
+    "version": "2021.1.1"
 }
