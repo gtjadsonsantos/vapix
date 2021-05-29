@@ -1,10 +1,9 @@
 {
   "domain": "vapix",
   "name": "vapix",
-  "version": "0.1.0",
+  "version": "2021.1.2",
   "documentation": "https://github.com/jadson179/vapix",
   "issue_tracker": "https://github.com/jadson179/controlid/issues",
-  "dependencies": [],
   "codeowners": ["@jadson179"],
   "iot_class":"local_push"
 }
