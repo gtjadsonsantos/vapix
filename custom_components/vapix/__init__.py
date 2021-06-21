@@ -6,6 +6,13 @@ import json
 from .const import (
     DOMAIN
 )
+from .doors import (
+    open_remote_door,
+    access,
+    double_lock,
+    lock,
+    unlock
+)
 
 def setup(hass:HomeAssistant, config):
 
@@ -32,26 +39,12 @@ def setup(hass:HomeAssistant, config):
         else:
             return False
 
-    def open_remote_door(call):
-        ip = call.data.get("ip", "")
-        username = call.data.get("username", "")
-        password = call.data.get("password", "")
-        doorid = call.data.get("doorid", "")
-
-        headers = {
-            "Content-Type": "application/json",
-        }
-
-        payload = {"tdc:AccessDoor":  {"Token": doorid } }
-
-        post(
-            "http://{ip}/vapix/doorcontrol".format(ip=ip),
-            data=json.dumps(payload),
-            headers=headers,
-            auth=HTTPDigestAuth(username, password)
-        )
-
     hass.services.register(DOMAIN, "open_remote_door", open_remote_door)
+    hass.services.register(DOMAIN, "access", access)
+    hass.services.register(DOMAIN, "double_lock", double_lock)
+    hass.services.register(DOMAIN, "lock", lock)
+    hass.services.register(DOMAIN, "unlock", unlock)
     hass.services.register(DOMAIN, "get_door_list", get_door_list)
+
     
     return True
