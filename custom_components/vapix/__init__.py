@@ -32,7 +32,7 @@ def setup(hass:HomeAssistant, config):
             for k in e['Door']:
                 hass.services.call(
                 domain="notify",
-                service="persistent_notificationt",
+                service="persistent_notification",
                 service_data={ "title": k['Name'], "message": k['token'] })
 
             return True
