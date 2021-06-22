@@ -26,3 +26,69 @@ get_door_list:
     password: 
       description: "password of controller"
       example: "admin"
+
+access:
+  description: Open door.
+  fields:
+    ip: 
+      description: "ip of controller"
+      example: "192.168.0.1"
+    username: 
+      description: "username of controller"
+      example: "admin"
+    password: 
+      description: "password of controller"
+      example: "admin"
+    doorid:
+      description: "identification door"
+      example: "Axis-000000000:00000000.00000000"
+
+
+double_lock:
+  description: Double Lock door.
+  fields:
+    ip: 
+      description: "ip of controller"
+      example: "192.168.0.1"
+    username: 
+      description: "username of controller"
+      example: "admin"
+    password: 
+      description: "password of controller"
+      example: "admin"
+    doorid:
+      description: "identification door"
+      example: "Axis-000000000:00000000.00000000"
+
+unlock:
+  description: Unlock door.
+  fields:
+    ip: 
+      description: "ip of controller"
+      example: "192.168.0.1"
+    username: 
+      description: "username of controller"
+      example: "admin"
+    password: 
+      description: "password of controller"
+      example: "admin"
+    doorid:
+      description: "identification door"
+      example: "Axis-000000000:00000000.00000000"
+
+
+lock:
+  description: Lock door.
+  fields:
+    ip: 
+      description: "ip of controller"
+      example: "192.168.0.1"
+    username: 
+      description: "username of controller"
+      example: "admin"
+    password: 
+      description: "password of controller"
+      example: "admin"
+    doorid:
+      description: "identification door"
+      example: "Axis-000000000:00000000.00000000"

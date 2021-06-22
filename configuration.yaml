@@ -1,0 +1,6 @@
+default_config:
+
+homeassistant:
+  name: Test Environment (Vapix) 
+
+vapix: 

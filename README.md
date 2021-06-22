@@ -32,6 +32,32 @@ username: admin
 password: admin
 ```
 
+* **vapix.double_lock**: Double Lock door 
+
+```yaml
+ip: 192.168.0.1
+username: admin
+password: admin
+doorid: 'Axis-000000000:00000000.00000000'
+```
+
+* **vapix.unlock**: Unlock door. 
+
+```yaml
+ip: 192.168.0.1
+username: admin
+password: admin
+doorid: 'Axis-000000000:00000000.00000000'
+```
+
+* **vapix.lock**: lock door. 
+
+```yaml
+ip: 192.168.0.1
+username: admin
+password: admin
+doorid: 'Axis-000000000:00000000.00000000'
+```
 
 ## LICENSE 📝
 
